@@ -1,0 +1,53 @@
+.muxic__song-result__container {
+  background: var(--light-bg);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.muxic__song-result__container__playlist-box {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0rem 2rem;
+}
+
+.muxic__song-result__container_homelink {
+  display: flex;
+  margin-bottom: 2rem;
+  justify-content: flex-start;
+  align-content: center;
+
+  color: var(--text-blue);
+  font-weight: 700;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.muxic__song-result__container__playlist-box_showing {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  color: var(--text-blue);
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: var(--font-alt);
+}
+
+.muxic__song-result__container__playlist-box_showing span {
+  color: var(--bold-orange);
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin-left: 0.3rem;
+}
+
+@media screen and (max-width: 600px) {
+  .muxic__song-result__container {
+    padding: 1rem 0.5rem;
+  }
+  .muxic__song-result__container__playlist-box {
+    padding: 0rem 0;
+  }
+}
