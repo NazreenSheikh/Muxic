@@ -1,4 +1,4 @@
-.musica__search-container {
+.muxic__search-container {
   position: sticky;
   top: 0;
   left: 0;
@@ -7,7 +7,7 @@
   flex-direction: column;
 }
 
-.musica__search-container__search-input {
+.muxic__search-container__search-input {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +18,7 @@
   padding: 1rem 0;
 }
 
-.musica__search-container__search-input input {
+.muxic__search-container__search-input input {
   width: 60%;
   font-size: 1rem;
   border: 2px solid var(--text-orange);
@@ -29,7 +29,7 @@
   color: #000;
 }
 
-.musica__search-container__search-input button {
+.muxic__search-container__search-input button {
   padding: 0.5rem 0.7rem;
   border: 2px solid var(--text-orange);
   letter-spacing: 0.7px;
@@ -37,14 +37,14 @@
   outline: none;
 }
 
-.musica__song-exception__handling {
+.muxic__song-exception__handling {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
-.musica__song-exception__handling div {
+.muxic__song-exception__handling div {
   background: var(--primary-color);
   width: 60%;
   height: 250px;
@@ -60,11 +60,11 @@
 }
 
 @media screen and (max-width: 500px) {
-  .musica__search-container__search-input input {
+  .muxic__search-container__search-input input {
     width: 70%;
   }
 
-  .musica__song-exception__handling div {
+  .muxic__song-exception__handling div {
     width: 90%;
   }
 }

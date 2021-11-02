@@ -31,8 +31,8 @@ const SearchPage = (props) => {
   }
 
   return (
-    <div className="musica__search-container">
-      <div className="musica__search-container__search-input">
+    <div className="muxic__search-container">
+      <div className="muxic__search-container__search-input">
         <input
           placeholder="Enter your song name"
           type="text"
