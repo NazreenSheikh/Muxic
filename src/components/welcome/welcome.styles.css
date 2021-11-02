@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Dancing+Script&display=swap');
+.welcome-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  /* min-height: 50vh; */
+  background-image: url('/bg1.jpg');
+  background-size: cover;
+  /* background: linear-gradient(130deg, #5d150e 0, #78378c 100%); */
+}
+.welcome-logo {
+  margin: 6rem auto 2rem;
+  color: white;
+  font-weight: bolder;
+  font-size: x-large;
+  word-spacing: 1rem;
+}
+.welcome-subtitle {
+  margin: 0 auto 6rem auto;
+  font-size: 3.2rem;
+  color: white;
+  padding: 8px;
+  text-align: center;
+}
