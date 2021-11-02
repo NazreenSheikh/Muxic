@@ -1,0 +1,81 @@
+.muxic__display-page__container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  padding-bottom: 5rem;
+
+  background: var(--light-bg);
+}
+
+.muxic__display-page__container__genres {
+  display: flex;
+  flex-direction: column;
+}
+
+.muxic__display-page__container__genres-text {
+  margin-bottom: 1rem;
+}
+
+.muxic__display-page__container__genres-text h1 {
+  font-family: var(--font-base);
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.muxic__display-page__container__genres-text span {
+  color: var(--text-orange);
+  text-transform: capitalize;
+}
+
+.muxic__display-page__container__genre-navigation {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.muxic__display-page__container__genre-navigation__next,
+.muxic__display-page__container__genre-navigation__back {
+  font-size: 2rem;
+  opacity: 0.2;
+  transition: 0.3s ease-in;
+  z-index: 1;
+  position: absolute;
+}
+
+.muxic__display-page__container__genre-navigation__next {
+  right: 0%;
+}
+
+.muxic__display-page__container__genres-box {
+  display: flex;
+  flex: 1;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.muxic__display-page__container__genres-box::-webkit-scrollbar {
+  display: none;
+}
+
+.muxic__display-page__container__genre-navigation__next:hover,
+.muxic__display-page__container__genre-navigation__back:hover {
+  opacity: 1;
+}
+
+.muxic__display-page__container__tracks {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.muxic__display-page__container__tracks-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
