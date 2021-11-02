@@ -1,0 +1,126 @@
+.muxic__play-song__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  position: sticky;
+  bottom: 0%;
+
+  padding: 1rem 0 1rem 4px;
+  background: linear-gradient(31deg, #ffffff, black);
+}
+
+.muxic__play-song__container__no-audio {
+  display: flex;
+  width: 100%;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: #000;
+  font-family: var(--font-alt);
+  font-weight: 700;
+
+  padding: 0;
+}
+
+.muxic__play-song__container_info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.muxic_play-song__container__img-div {
+  display: flex;
+}
+
+.muxic_play-song__container__img-div img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.muxic_play-song__container__desc-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.muxic_play-song__container__desc-div h5 {
+  font-family: var(--font-alt);
+  color: #000;
+  letter-spacing: 0.6px;
+  margin-bottom: 0.1rem;
+}
+
+.muxic_play-song__container__desc-div p {
+  font-size: 0.8rem;
+  font-family: var(--font-base);
+  color: var(--text-orange);
+}
+
+.muxic__play-song__container_actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: wheat;
+  margin-right: 1rem;
+}
+
+.muxic__play-song__container_actions svg {
+  cursor: pointer;
+}
+
+.muxic__play-song__container_actions svg:hover {
+  -webkit-animation: scale-down-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: scale-down-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.slide-top {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+  }
+}
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(200px);
+    transform: translateY(200px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+@keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
