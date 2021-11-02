@@ -10,16 +10,32 @@
   /* background: linear-gradient(130deg, #5d150e 0, #78378c 100%); */
 }
 .welcome-logo {
-  margin: 6rem auto 2rem;
-  color: white;
+  margin: 5rem auto 2rem;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
   font-weight: bolder;
-  font-size: x-large;
-  word-spacing: 1rem;
+  font-size: 2rem;
+  padding: 0 4px;
+  letter-spacing: 1rem;
+  background-image: linear-gradient(
+    to right,
+    rgb(150, 238, 130),
+    #bb6060,
+    rgb(4, 195, 4),
+    blue,
+    rgb(192, 192, 10),
+    rgb(255, 0, 76)
+  );
 }
+.welcome-logo > div {
+  letter-spacing: 0.3rem;
+}
+
 .welcome-subtitle {
+  letter-spacing: 0.3rem;
   margin: 0 auto 6rem auto;
-  font-size: 3.2rem;
+  font-size: 2.2rem;
   color: white;
   padding: 8px;
-  text-align: center;
 }

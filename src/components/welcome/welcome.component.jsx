@@ -5,8 +5,9 @@ import './welcome.styles.css'
 const Welcome = () => {
   return (
     <div className="welcome-wrapper">
-      <div className="welcome-logo">MUXIC</div>
-      <p className="welcome-subtitle">Music is the shorthand of emotion</p>
+      <div className="welcome-logo">PLAY YOUR TASTE&#x266a;</div>
+
+      <i className="welcome-subtitle">Music is the shorthand of emotion</i>
     </div>
   )
 }
